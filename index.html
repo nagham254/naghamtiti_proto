@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagham Titi | Data Wizard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Particles Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Main Container -->
+    <div class="glass-container">
+        <!-- Animated Profile Header -->
+        <header class="profile-header">
+            <div class="profile-avatar">
+                <img src="profile.jpg" alt="Nagham Titi" class="avatar-img">
+                <div class="status-circle"></div>
+            </div>
+            <h1 class="typing-text">Nagham Titi</h1>
+            <div class="tagline">Data Alchemist</div>
+            
+            <!-- Animated Navigation -->
+            <nav class="floating-nav">
+                <a href="#home" class="nav-btn active" data-tooltip="Home">
+                    <i class="fas fa-home"></i>
+                </a>
+                <a href="#about" class="nav-btn" data-tooltip="About">
+                    <i class="fas fa-user-astronaut"></i>
+                </a>
+                <a href="#skills" class="nav-btn" data-tooltip="Skills">
+                    <i class="fas fa-code"></i>
+                </a>
+                <a href="#projects" class="nav-btn" data-tooltip="Projects">
+                    <i class="fas fa-project-diagram"></i>
+                </a>
+                <a href="#contact" class="nav-btn" data-tooltip="Contact">
+                    <i class="fas fa-paper-plane"></i>
+                </a>
+            </nav>
+        </header>
+
+        <!-- Main Content Sections -->
+        <main class="content-wrapper">
+            <!-- Hero Section -->
+            <section id="home" class="section active-section">
+                <div class="hero-content">
+                    <h2 class="hero-title">Transforming Data <span class="highlight">Into Gold</span></h2>
+                    <p class="hero-text">
+                        I specialize in turning complex datasets into actionable insights using cutting-edge 
+                        AI and machine learning techniques.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary-btn">View My Work</a>
+                        <a href="#contact" class="btn secondary-btn">Hire Me</a>
+                    </div>
+                </div>
+                <div class="hero-illustration">
+                    <img src="data_analytics.svg" alt="Data Analytics" class="hero-img">
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Education</h3>
+                        <p>The Hashemite University<br>BSc in Data Science & AI<br>GPA: 3.63/4.00</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Experience</h3>
+                        <p>Data Analyst & Engineer<br>Python & SQL Specialist<br>Machine Learning</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Passion</h3>
+                        <p>Solving complex problems<br>Creating data pipelines<br>Visual storytelling</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section">
+                <h2 class="section-title">My <span>Skills</span></h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-laptop-code"></i> Technical Skills</h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar">
+                                <div class="skill-info">
+                                    <span>Python (Pandas, NumPy)</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <!-- Add more skills similarly -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <h2 class="section-title">Featured <span>Projects</span></h2>
+                <div class="project-gallery">
+                    <!-- Project cards will go here -->
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <div class="contact-container">
+                    <form class="contact-form">
+                        <!-- Form fields will go here -->
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- Animated Footer -->
+        <footer class="animated-footer">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="copyright">© 2023 Nagham Titi. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
